@@ -1,0 +1,9 @@
+2020-10-10 16:00:00.663  INFO 6884 --- [main] c.wulianwang.iotl.IotlApplicationTests   : Starting IotlApplicationTests on liu with PID 6884 (started by Asus in E:\workplaceforidea\IOTL)
+2020-10-10 16:00:00.665  INFO 6884 --- [main] c.wulianwang.iotl.IotlApplicationTests   : No active profile set, falling back to default profiles: default
+2020-10-10 16:00:02.840  INFO 6884 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-10 16:00:03.112  INFO 6884 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-10 16:00:03.547  INFO 6884 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-10 16:00:03.573  INFO 6884 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-10 16:00:03.610  INFO 6884 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-10 16:00:03.834  INFO 6884 --- [main] c.wulianwang.iotl.IotlApplicationTests   : Started IotlApplicationTests in 3.442 seconds (JVM running for 4.379)
+2020-10-10 16:00:04.060  INFO 6884 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

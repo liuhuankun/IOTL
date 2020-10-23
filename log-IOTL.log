@@ -1,0 +1,1004 @@
+2020-10-23 15:39:57.325  INFO 14908 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 14908 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 15:39:57.331  INFO 14908 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 15:39:59.243  INFO 14908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 15:39:59.250  INFO 14908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 15:39:59.250  INFO 14908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 15:39:59.732  INFO 14908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 15:39:59.733  INFO 14908 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2297 ms
+2020-10-23 15:40:00.199  INFO 14908 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 15:40:00.253  INFO 14908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 15:40:00.374  INFO 14908 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 15:40:00.413  INFO 14908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 15:40:00.414  INFO 14908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 15:40:00.431  INFO 14908 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 15:40:00.459  INFO 14908 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 15:40:00.612  INFO 14908 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 3.91 seconds (JVM running for 5.599)
+2020-10-23 15:40:00.614  INFO 14908 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 15:40:00
+2020-10-23 15:45:00.408  INFO 14908 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-23 15:45:00.679  INFO 14908 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-23 15:45:00.917 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:01.020 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:02.024 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:03.017 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:04.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:05.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:06.017 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:07.042 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:08.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:09.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:10.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:11.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:12.017 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:13.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:14.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:15.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:16.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:17.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:18.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:19.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:20.022 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:21.035 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:22.032 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:23.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:24.021 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:25.029 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:26.024 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:27.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:28.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:29.020 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:30.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:31.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:32.023 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:33.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:34.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:35.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:36.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:37.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:38.023 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:39.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:40.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:41.112 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:42.053 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:43.109 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:44.327 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:45.020 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:46.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:47.042 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:48.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:49.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:50.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:51.039 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:52.020 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:53.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:54.017 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:55.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:56.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:57.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:58.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:45:59.067 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:00.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:01.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:02.069 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:03.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:04.025 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:05.019 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:06.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:07.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:08.017 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:09.024 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:10.009 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:11.029 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:12.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:13.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:14.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:15.020 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:16.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:17.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:18.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:19.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:20.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:21.039 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:22.284 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:23.241 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:24.040 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:25.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:26.070 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:27.029 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:28.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:29.021 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:30.021 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:31.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:32.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:33.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:34.027 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:35.022 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:36.019 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:37.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:38.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:39.083 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:40.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:41.028 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:42.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:43.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:44.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:45.019 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:46.050 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:47.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:48.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:49.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:50.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:51.349 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:52.048 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:53.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:54.051 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:55.023 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:56.021 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:57.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:58.026 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:46:59.023 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:00.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:01.046 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:02.007 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:03.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:04.045 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:05.009 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:06.031 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:07.028 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:08.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:09.007 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:10.008 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:11.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:12.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:13.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:14.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:15.008 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:16.020 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:17.026 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:18.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:19.023 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:20.025 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:21.025 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:22.019 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:23.021 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:24.022 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:25.028 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:26.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:27.054 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:28.041 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:29.078 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:30.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:31.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:32.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:33.025 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:34.025 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:35.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:36.026 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:37.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:38.036 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:39.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:40.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:41.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:42.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:43.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:44.066 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:45.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:46.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:47.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:48.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:49.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:50.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:51.025 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:52.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:53.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:54.072 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:55.033 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:56.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:57.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:58.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:47:59.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:00.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:01.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:02.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:03.020 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:04.019 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:05.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:06.017 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:07.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:08.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:09.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:10.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:11.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:12.020 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:13.008 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:14.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:15.045 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:16.013 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:17.031 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:18.059 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:19.029 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:20.027 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:21.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:22.011 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:23.037 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:24.023 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:25.085 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:26.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:27.034 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:28.015 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:29.012 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:30.025 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:31.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:32.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:33.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:34.016 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:35.044 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:36.014 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:37.010 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:38.024 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:39.008 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:40.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:41.124 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:42.158 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:43.046 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:44.160 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:45.688 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:46.035 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:47.168 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:48.080 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:49.045 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:50.120 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:51.346 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:52.205 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:53.737 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:54.618 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:55.116 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:56.226 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:57.202 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:58.621 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:48:59.695 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:00.129 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:01.037 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:02.090 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:03.707 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:04.074 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:05.106 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:06.155 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:07.066 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:08.044 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:09.018 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:10.458 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:11.098 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:49:12.096 ERROR 14908 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 操作异常
+2020-10-23 15:55:06.920  INFO 6632 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 6632 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 15:55:06.923  INFO 6632 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 15:55:07.925  INFO 6632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 15:55:07.935  INFO 6632 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 15:55:07.936  INFO 6632 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 15:55:08.029  INFO 6632 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 15:55:08.029  INFO 6632 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1061 ms
+2020-10-23 15:55:08.469  INFO 6632 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 15:55:08.514  INFO 6632 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 15:55:08.600  INFO 6632 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 15:55:08.640  INFO 6632 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 15:55:08.641  INFO 6632 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 15:55:08.652  INFO 6632 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 15:55:08.683  INFO 6632 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 15:55:08.848  INFO 6632 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.242 seconds (JVM running for 2.961)
+2020-10-23 15:55:08.850  INFO 6632 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 15:55:08
+2020-10-23 15:55:09.012  INFO 6632 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-23 15:55:09.263  INFO 6632 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-23 15:55:09.386  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:55:09.405  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:55:09.417  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:55:09.430  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:55:09.437  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:55:10.026  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:55:10.041  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:55:10.050  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:55:10.064  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:55:10.073  INFO 6632 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:55:25.515  INFO 10792 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 10792 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 15:55:25.519  INFO 10792 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 15:55:26.510  INFO 10792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 15:55:26.516  INFO 10792 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 15:55:26.517  INFO 10792 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 15:55:26.579  INFO 10792 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 15:55:26.579  INFO 10792 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1002 ms
+2020-10-23 15:55:26.913  INFO 10792 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 15:55:26.963  INFO 10792 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 15:55:27.054  INFO 10792 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 15:55:27.090  INFO 10792 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 15:55:27.090  INFO 10792 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 15:55:27.101  INFO 10792 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 15:55:27.124  INFO 10792 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 15:55:27.268  INFO 10792 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.051 seconds (JVM running for 2.764)
+2020-10-23 15:55:27.269  INFO 10792 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 15:55:27
+2020-10-23 15:56:00.062  INFO 10792 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-23 15:56:00.186  INFO 10792 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-23 15:56:00.332  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:00.361  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:00.374  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:00.386  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:00.413  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:01.026  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:01.036  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:01.047  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:01.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:01.068  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:02.025  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:02.039  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:02.052  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:02.070  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:02.081  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:03.029  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:03.043  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:03.068  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:03.082  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:03.091  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:04.030  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:04.039  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:04.053  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:04.064  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:04.075  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:05.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:05.051  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:05.060  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:05.071  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:05.079  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:06.042  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:06.055  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:06.065  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:06.076  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:06.088  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:07.022  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:07.037  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:07.048  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:07.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:07.068  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:08.027  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:08.054  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:08.065  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:08.078  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:08.096  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:09.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:09.048  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:09.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:09.072  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:09.084  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:10.025  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:10.038  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:10.049  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:10.059  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:10.072  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:11.022  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:11.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:11.042  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:11.063  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:11.088  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:12.031  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:12.042  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:12.066  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:12.077  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:12.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:13.027  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:13.039  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:13.048  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:13.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:13.067  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:14.040  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:14.089  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:14.110  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:14.123  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:14.132  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:15.022  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:15.033  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:15.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:15.054  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:15.064  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:16.025  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:16.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:16.047  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:16.057  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:16.066  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:17.027  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:17.047  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:17.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:17.076  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:17.098  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:18.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:18.056  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:18.065  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:18.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:18.095  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:19.021  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:19.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:19.049  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:19.065  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:19.080  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:20.023  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:20.033  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:20.045  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:20.054  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:20.064  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:21.037  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:21.051  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:21.077  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:21.090  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:21.123  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:22.031  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:22.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:22.059  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:22.074  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:22.095  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:23.024  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:23.057  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:23.073  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:23.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:23.096  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:24.022  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:24.033  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:24.043  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:24.073  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:24.084  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:25.077  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:25.092  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:25.105  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:25.129  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:25.147  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:26.029  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:26.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:26.064  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:26.084  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:26.108  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:27.024  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:27.034  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:27.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:27.055  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:27.064  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:28.059  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:28.068  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:28.078  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:28.091  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:28.107  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:29.052  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:29.061  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:29.076  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:29.094  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:29.106  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:30.040  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:30.048  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:30.062  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:30.079  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:30.102  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:31.031  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:31.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:31.066  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:31.075  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:31.084  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:32.024  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:32.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:32.055  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:32.070  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:32.078  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:33.021  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:33.031  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:33.040  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:33.052  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:33.092  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:34.020  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:34.031  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:34.041  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:34.051  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:34.069  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:35.078  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:35.109  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:35.124  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:35.134  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:35.146  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:36.038  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:36.049  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:36.069  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:36.095  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:36.115  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:37.027  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:37.042  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:37.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:37.098  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:37.129  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:38.053  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:38.064  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:38.076  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:38.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:38.098  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:39.055  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:39.081  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:39.112  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:39.125  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:39.208  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:40.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:40.047  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:40.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:40.082  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:40.091  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:41.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:41.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:41.068  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:41.089  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:41.115  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:42.025  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:42.034  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:42.045  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:42.056  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:42.082  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:43.020  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:43.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:43.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:43.061  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:43.071  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:44.047  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:44.070  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:44.082  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:44.094  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:44.110  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:45.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:45.047  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:45.062  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:45.075  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:45.100  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:46.309  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:46.469  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:46.500  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:46.518  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:46.529  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:47.317  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:47.375  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:47.402  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:47.416  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:47.429  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:48.040  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:48.049  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:48.097  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:48.109  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:48.124  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:49.028  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:49.067  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:49.074  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:49.084  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:49.091  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:50.029  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:50.043  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:50.057  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:50.067  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:50.075  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:51.115  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:51.126  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:51.135  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:51.151  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:51.169  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:52.026  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:52.036  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:52.049  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:52.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:52.068  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:53.042  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:53.062  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:53.079  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:53.088  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:53.099  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:54.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:54.051  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:54.063  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:54.076  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:54.087  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:55.022  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:55.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:55.041  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:55.049  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:55.074  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:56.094  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:56.117  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:56.144  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:56.188  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:56.213  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:57.034  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:57.045  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:57.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:57.075  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:57.087  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:58.271  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:58.286  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:58.310  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:58.346  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:58.379  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:56:59.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:56:59.045  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:56:59.059  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:56:59.074  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:56:59.092  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:00.036  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:00.077  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:00.092  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:00.102  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:00.112  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:01.027  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:01.037  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:01.051  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:01.066  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:01.076  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:02.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:02.074  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:02.091  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:02.105  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:02.115  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:03.042  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:03.051  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:03.070  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:03.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:03.095  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:04.034  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:04.045  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:04.080  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:04.095  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:04.110  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:05.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:05.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:05.057  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:05.067  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:05.076  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:06.019  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:06.028  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:06.038  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:06.045  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:06.053  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:07.022  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:07.030  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:07.043  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:07.051  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:07.064  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:08.034  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:08.046  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:08.065  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:08.072  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:08.080  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:09.040  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:09.092  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:09.128  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:09.144  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:09.160  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:10.059  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:10.073  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:10.104  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:10.116  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:10.138  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:11.075  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:11.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:11.103  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:11.113  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:11.121  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:12.036  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:12.048  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:12.061  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:12.073  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:12.087  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:13.020  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:13.029  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:13.039  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:13.048  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:13.057  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:14.058  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:14.073  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:14.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:14.096  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:14.136  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:15.019  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:15.033  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:15.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:15.055  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:15.074  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:16.026  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:16.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:16.044  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:16.055  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:16.067  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:17.034  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:17.056  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:17.072  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:17.112  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:17.124  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:18.034  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:18.043  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:18.051  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:18.061  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:18.069  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:19.021  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:19.033  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:19.047  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:19.057  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:19.065  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:20.031  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:20.042  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:20.052  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:20.067  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:20.077  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:21.019  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:21.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:21.052  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:21.062  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:21.074  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:22.035  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:22.063  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:22.085  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:22.109  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:22.121  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:23.093  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:23.103  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:23.112  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:23.121  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:23.132  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:24.019  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:24.031  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:24.040  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:24.047  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:24.054  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:25.032  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:25.065  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:25.079  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:25.097  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:25.114  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:26.020  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 15:57:26.027  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 15:57:26.036  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 15:57:26.046  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 15:57:26.052  INFO 10792 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 15:57:46.444  INFO 8272 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 8272 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 15:57:46.447  INFO 8272 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 15:57:47.360  INFO 8272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 15:57:47.366  INFO 8272 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 15:57:47.367  INFO 8272 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 15:57:47.428  INFO 8272 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 15:57:47.428  INFO 8272 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 929 ms
+2020-10-23 15:57:47.779  INFO 8272 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 15:57:47.825  INFO 8272 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 15:57:47.911  INFO 8272 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 15:57:47.947  INFO 8272 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 15:57:47.948  INFO 8272 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 15:57:47.959  INFO 8272 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 15:57:47.981  INFO 8272 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 15:57:48.121  INFO 8272 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 1.991 seconds (JVM running for 2.699)
+2020-10-23 15:57:48.123  INFO 8272 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 15:57:48
+2020-10-23 16:05:54.862  INFO 14932 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 14932 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:05:54.864  INFO 14932 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 16:05:55.817  INFO 14932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 16:05:55.824  INFO 14932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 16:05:55.824  INFO 14932 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:05:55.887  INFO 14932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 16:05:55.887  INFO 14932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 969 ms
+2020-10-23 16:05:56.227  INFO 14932 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:05:56.272  INFO 14932 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:05:56.359  INFO 14932 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 16:05:56.394  INFO 14932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 16:05:56.395  INFO 14932 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 16:05:56.406  INFO 14932 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 16:05:56.436  INFO 14932 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 16:05:56.566  INFO 14932 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.009 seconds (JVM running for 2.675)
+2020-10-23 16:05:56.568  INFO 14932 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 16:05:56
+2020-10-23 16:06:00.062  INFO 14932 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-23 16:06:00.229  INFO 14932 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-23 16:06:00.769  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态是未签退
+2020-10-23 16:06:01.034  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态是未签退
+2020-10-23 16:06:01.394  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态是未签退
+2020-10-23 16:06:01.784  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态是未签退
+2020-10-23 16:06:02.130  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态是未签退
+2020-10-23 16:06:03.134  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:03.154  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:06:03.168  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:06:03.177  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:06:03.221  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:06:04.026  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:04.035  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:06:04.044  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:06:04.055  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:06:04.067  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:06:05.064  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:05.078  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:06:05.087  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:06:05.096  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:06:05.106  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:06:06.034  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:06.045  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:06:06.056  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:06:06.065  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:06:06.081  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:06:07.046  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:07.057  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:06:07.068  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:06:07.080  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:06:07.113  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:06:08.023  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:08.033  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:06:08.045  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:06:08.054  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:06:08.063  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:06:09.027  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:09.039  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:06:09.054  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:06:09.064  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:06:09.075  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:06:10.023  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:10.035  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:06:10.043  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:06:10.053  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:06:10.064  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:06:11.023  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:06:11.032  INFO 14932 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:24:35.596  INFO 11640 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 11640 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:24:35.599  INFO 11640 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 16:24:36.681  INFO 11640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 16:24:36.688  INFO 11640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 16:24:36.688  INFO 11640 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:24:36.756  INFO 11640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 16:24:36.757  INFO 11640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1116 ms
+2020-10-23 16:24:37.251  INFO 11640 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:24:37.298  INFO 11640 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:24:37.422  INFO 11640 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 16:24:37.485  INFO 11640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 16:24:37.486  INFO 11640 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 16:24:37.504  INFO 11640 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 16:24:37.560  INFO 11640 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 16:24:37.697  INFO 11640 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.382 seconds (JVM running for 3.142)
+2020-10-23 16:24:37.699  INFO 11640 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 16:24:37
+2020-10-23 16:25:01.070  INFO 11640 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-23 16:25:01.276  INFO 11640 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-23 16:25:01.381  INFO 11640 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态正常
+2020-10-23 16:25:01.392  INFO 11640 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态正常
+2020-10-23 16:25:01.400  INFO 11640 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态正常
+2020-10-23 16:25:01.409  INFO 11640 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态正常
+2020-10-23 16:25:01.423  INFO 11640 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态正常
+2020-10-23 16:26:55.962  INFO 9644 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 9644 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:26:55.965  INFO 9644 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 16:26:56.904  INFO 9644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 16:26:56.911  INFO 9644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 16:26:56.911  INFO 9644 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:26:56.977  INFO 9644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 16:26:56.977  INFO 9644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 974 ms
+2020-10-23 16:26:57.334  INFO 9644 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:26:57.383  INFO 9644 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:26:57.475  INFO 9644 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 16:26:57.516  INFO 9644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 16:26:57.517  INFO 9644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 16:26:57.529  INFO 9644 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 16:26:57.574  INFO 9644 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 16:26:57.754  INFO 9644 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.096 seconds (JVM running for 2.879)
+2020-10-23 16:26:57.756  INFO 9644 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 16:26:57
+2020-10-23 16:27:15.306  INFO 15100 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 15100 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:27:15.316  INFO 15100 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 16:27:16.310  INFO 15100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 16:27:16.317  INFO 15100 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 16:27:16.317  INFO 15100 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:27:16.388  INFO 15100 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 16:27:16.388  INFO 15100 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1031 ms
+2020-10-23 16:27:16.765  INFO 15100 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:27:16.822  INFO 15100 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:27:16.921  INFO 15100 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 16:27:16.958  INFO 15100 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 16:27:16.959  INFO 15100 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 16:27:16.971  INFO 15100 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 16:27:16.995  INFO 15100 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 16:27:17.139  INFO 15100 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.11 seconds (JVM running for 2.843)
+2020-10-23 16:27:17.141  INFO 15100 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 16:27:17
+2020-10-23 16:27:50.605  INFO 9292 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 9292 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:27:50.607  INFO 9292 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 16:27:51.550  INFO 9292 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 16:27:51.557  INFO 9292 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 16:27:51.557  INFO 9292 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:27:51.622  INFO 9292 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 16:27:51.622  INFO 9292 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 973 ms
+2020-10-23 16:27:51.762  WARN 9292 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scheduledTask' defined in file [E:\workplaceforidea\IOTL\target\classes\com\wulianwang\iotl\Controller\ScheduledTask.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'cron_6': For input string: "?"
+2020-10-23 16:27:51.765  INFO 9292 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-10-23 16:27:51.772  INFO 9292 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-10-23 16:27:51.781 ERROR 9292 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'scheduledTask' defined in file [E:\workplaceforidea\IOTL\target\classes\com\wulianwang\iotl\Controller\ScheduledTask.class]: Initialization of bean failed; nested exception is java.lang.IllegalStateException: Encountered invalid @Scheduled method 'cron_6': For input string: "?"
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:516) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:324) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:322) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:897) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:879) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:551) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.3.3.RELEASE.jar:2.3.3.RELEASE]
+	at com.wulianwang.iotl.IotlApplication.main(IotlApplication.java:19) [classes/:na]
+Caused by: java.lang.IllegalStateException: Encountered invalid @Scheduled method 'cron_6': For input string: "?"
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.processScheduled(ScheduledAnnotationBeanPostProcessor.java:511) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$null$1(ScheduledAnnotationBeanPostProcessor.java:374) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[na:1.8.0_221]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.lambda$postProcessAfterInitialization$2(ScheduledAnnotationBeanPostProcessor.java:374) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:1.8.0_221]
+	at org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor.postProcessAfterInitialization(ScheduledAnnotationBeanPostProcessor.java:373) ~[spring-context-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:430) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1798) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594) ~[spring-beans-5.2.8.RELEASE.jar:5.2.8.RELEASE]
+	... 16 common frames omitted
+
+2020-10-23 16:28:07.059  INFO 4212 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 4212 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:28:07.061  INFO 4212 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 16:28:08.037  INFO 4212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 16:28:08.044  INFO 4212 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 16:28:08.044  INFO 4212 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:28:08.112  INFO 4212 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 16:28:08.113  INFO 4212 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1009 ms
+2020-10-23 16:28:08.463  INFO 4212 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:28:08.511  INFO 4212 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:28:08.604  INFO 4212 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 16:28:08.642  INFO 4212 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 16:28:08.643  INFO 4212 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 16:28:08.654  INFO 4212 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 16:28:08.690  INFO 4212 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 16:28:08.834  INFO 4212 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.078 seconds (JVM running for 2.741)
+2020-10-23 16:28:08.836  INFO 4212 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 16:28:08
+2020-10-23 16:28:22.495  INFO 13328 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 13328 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:28:22.501  INFO 13328 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 16:28:23.443  INFO 13328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 16:28:23.449  INFO 13328 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 16:28:23.449  INFO 13328 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:28:23.516  INFO 13328 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 16:28:23.516  INFO 13328 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 966 ms
+2020-10-23 16:28:23.883  INFO 13328 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:28:23.931  INFO 13328 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:28:24.024  INFO 13328 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 16:28:24.062  INFO 13328 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 16:28:24.063  INFO 13328 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 16:28:24.074  INFO 13328 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 16:28:24.099  INFO 13328 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 16:28:24.247  INFO 13328 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.037 seconds (JVM running for 2.767)
+2020-10-23 16:28:24.249  INFO 13328 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 16:28:24
+2020-10-23 16:29:01.071  INFO 13328 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-23 16:29:01.309  INFO 13328 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-23 16:29:01.727  INFO 13328 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521306的签到状态是未签到
+2020-10-23 16:29:01.973  INFO 13328 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521325的签到状态是未签到
+2020-10-23 16:29:02.274  INFO 13328 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521330的签到状态是未签到
+2020-10-23 16:29:02.643  INFO 13328 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521331的签到状态是未签到
+2020-10-23 16:29:02.858  INFO 13328 --- [scheduling-1] c.w.iotl.Controller.ScheduledTask        : 学号为180521334的签到状态是未签到
+2020-10-23 16:40:34.471  INFO 1996 --- [main] c.wulianwang.iotl.IotlApplicationTests   : Starting IotlApplicationTests on liu with PID 1996 (started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:40:34.473  INFO 1996 --- [main] c.wulianwang.iotl.IotlApplicationTests   : No active profile set, falling back to default profiles: default
+2020-10-23 16:40:36.881  INFO 1996 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:40:37.209  INFO 1996 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:40:37.582  INFO 1996 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 16:40:37.640  INFO 1996 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 16:40:37.662  INFO 1996 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 16:40:37.701  INFO 1996 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 16:40:37.940  INFO 1996 --- [main] c.wulianwang.iotl.IotlApplicationTests   : Started IotlApplicationTests in 3.731 seconds (JVM running for 4.732)
+2020-10-23 16:40:38.290  INFO 1996 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-10-23 16:40:38.290  INFO 1996 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:51:08.467  INFO 13916 --- [main] com.wulianwang.iotl.IotlApplication      : Starting IotlApplication on liu with PID 13916 (E:\workplaceforidea\IOTL\target\classes started by Asus in E:\workplaceforidea\IOTL)
+2020-10-23 16:51:08.470  INFO 13916 --- [main] com.wulianwang.iotl.IotlApplication      : No active profile set, falling back to default profiles: default
+2020-10-23 16:51:09.488  INFO 13916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+2020-10-23 16:51:09.495  INFO 13916 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-23 16:51:09.495  INFO 13916 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.37]
+2020-10-23 16:51:09.560  INFO 13916 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-23 16:51:09.561  INFO 13916 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1048 ms
+2020-10-23 16:51:09.937  INFO 13916 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-10-23 16:51:09.995  INFO 13916 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-23 16:51:10.108  INFO 13916 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-10-23 16:51:10.146  INFO 13916 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+2020-10-23 16:51:10.147  INFO 13916 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2020-10-23 16:51:10.159  INFO 13916 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2020-10-23 16:51:10.183  INFO 13916 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2020-10-23 16:51:10.342  INFO 13916 --- [main] com.wulianwang.iotl.IotlApplication      : Started IotlApplication in 2.16 seconds (JVM running for 2.901)
+2020-10-23 16:51:10.344  INFO 13916 --- [main] com.wulianwang.iotl.IotlApplication      : 运行成功2020-10-23 16:51:10
+2020-10-23 16:51:15.378  INFO 13916 --- [http-nio-8083-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-23 16:51:15.378  INFO 13916 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-23 16:51:15.387  INFO 13916 --- [http-nio-8083-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-10-23 16:51:15.424  INFO 13916 --- [http-nio-8083-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-10-23 16:51:15.885  INFO 13916 --- [http-nio-8083-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-10-23 16:51:15.950  INFO 13916 --- [http-nio-8083-exec-2] c.w.iotl.Controller.ClockController      : 请求获得学生签到信息列表学号：180521330，页码为1获取数据条目数10获取成功
